@@ -10,9 +10,10 @@ const cron = require('node-cron');
 const fs = require("fs");
 const bodyParser = require('body-parser')
 const randomstring = require('randomstring')
-require('dotenv').config()
 
-const Authz = process.env.Auth
+
+// Ubah Auth Bebas
+const Authz = "ZyeLangX"
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
