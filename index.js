@@ -89,9 +89,9 @@ cron.schedule('00 00 * * *', function () {
 })
 
 // Views
-app.get('/', (req, res) => {
-    res.sendFile(__path + "/views/index.html")
-})
+// app.get('/', (req, res) => {
+//     res.sendFile(__path + "/views/index.html")
+// })
 
 app.listen('8000', () => {
     console.log('Server Running Port ' + 8000)
